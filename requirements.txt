@@ -1,0 +1,43 @@
+# RAG-Powered Search Engine — Requirements
+# Final Capstone Project
+
+# Core LangChain ecosystem
+langchain>=0.2.0
+langchain-core>=0.1.0
+langchain-community>=0.2.0
+langchain-openai>=0.1.0
+langchain-huggingface>=0.0.3
+langchain-text-splitters>=0.0.1
+
+# OpenAI (optional — only needed for OpenAI mode)
+openai>=1.10.0
+
+# Vector store
+faiss-cpu>=1.7.4
+
+# Embedding models
+sentence-transformers>=2.6.0
+
+# HuggingFace models (free LLM mode)
+transformers>=4.40.0
+torch>=2.1.0
+
+# Document loaders
+pypdf>=4.0.0
+unstructured>=0.12.0
+
+# Tokenisation
+tiktoken>=0.6.0
+
+# Evaluation
+rouge-score>=0.1.2
+nltk>=3.8.1
+
+# Deployment
+streamlit>=1.33.0
+
+# Utilities
+python-dotenv>=1.0.0
+rich>=13.7.0
+numpy>=1.24.0
+matplotlib>=3.8.0
